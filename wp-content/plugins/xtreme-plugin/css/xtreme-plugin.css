@@ -1,0 +1,467 @@
+/**
+ * CSS styles for Xtreme Plugin
+ */
+
+/* Contact Form Styles */
+.contact-form-shortcode {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.contact-form-shortcode h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contact-form-shortcode .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form-shortcode label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.contact-form-shortcode input,
+.contact-form-shortcode select,
+.contact-form-shortcode textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form-shortcode input:focus,
+.contact-form-shortcode select:focus,
+.contact-form-shortcode textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.contact-form-shortcode .btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-form-shortcode .btn:hover {
+    background-color: #d35400;
+}
+
+.contact-form-shortcode .form-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.contact-form-shortcode .form-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: block;
+}
+
+.contact-form-shortcode .form-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: block;
+}
+
+/* Business Hours Styles */
+.business-hours-shortcode {
+    background-color: #ecf0f1;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.business-hours-shortcode h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.hours-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hours-item .day {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.hours-item .time {
+    color: #3498db;
+    font-weight: 500;
+}
+
+/* Services List Styles */
+.services-list.shortcode-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service-item {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.service-item .service-excerpt {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.service-item .service-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-item .service-price,
+.service-item .service-duration {
+    background-color: #ecf0f1;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.service-item .service-price {
+    color: #e67e22;
+}
+
+.service-item .service-duration {
+    color: #3498db;
+}
+
+.service-item .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.service-item .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Testimonials Slider Styles */
+.testimonials-slider {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.testimonials-container {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.testimonial-item {
+    min-width: 100%;
+    background-color: #f8f9fa;
+    padding: 3rem;
+    text-align: center;
+}
+
+.testimonial-item .testimonial-rating {
+    color: #f39c12;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-item .testimonial-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.testimonial-item .testimonial-author {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.testimonials-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.testimonials-controls button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.testimonials-controls button:hover {
+    background-color: #2980b9;
+}
+
+/* Hero Section Styles */
+.hero-section-shortcode {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-section-shortcode .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section-shortcode h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.hero-section-shortcode .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.hero-section-shortcode .btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-section-shortcode .btn:hover {
+    background-color: #d35400;
+}
+
+/* Gallery Styles */
+.gallery-shortcode {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-item {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Team Members Styles */
+.team-shortcode.columns-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.team-shortcode.columns-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.team-item {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-item:hover {
+    transform: translateY(-5px);
+}
+
+.team-item .team-image {
+    margin-bottom: 1rem;
+}
+
+.team-item .team-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-item h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.team-item .team-position {
+    color: #3498db;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-item .team-email {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* General Button Styles */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-secondary {
+    background-color: #95a5a6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #229954;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-list.shortcode-services {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-shortcode.columns-2,
+    .team-shortcode.columns-3 {
+        grid-template-columns: 1fr;
+    }
+    
+    .business-hours-shortcode .hours-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-section-shortcode {
+        padding: 4rem 1rem;
+    }
+    
+    .hero-section-shortcode h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-section-shortcode .subtitle {
+        font-size: 1rem;
+    }
+    
+    .gallery-shortcode {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
